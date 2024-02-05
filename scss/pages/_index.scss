@@ -1,0 +1,88 @@
+@import "../utilidades/variables.scss";
+
+/*Index*/
+/*Header*/
+
+header{
+    .navbar{
+        .container-fluid{
+            background-color: $color-portada;
+            .collapse{
+                font-size: $letra-portada;
+                .navbar-nav{
+                   .nav-item{
+                    .nav-link{
+                        color: $color-letra;
+
+                    }
+                   } 
+                }
+            }
+        }
+    }
+}
+
+header{
+    .navbar{
+        .container-fluid{
+            background-color: $color-portada;
+            .collapse{
+                font-size: $letra-portada;
+                .navbar-nav{
+                   .nav-item{
+                    .nav-link:hover{
+                        color: #fcd0d0;
+                        text-decoration: underline #fcd0d0;
+                        
+                    }
+                   } 
+                }
+            }
+        }
+    }
+}
+
+/*Main*/
+main{
+    .contenedor-index{
+        display: grid;
+        grid-template-columns: repeat(2 1fr);
+        grid-template-rows: 1fr;
+        .texto{
+            grid-row: 1/2;
+            grid-column: 1/2;
+            h1{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+        }
+        .img{
+            grid-row: 1/2;
+            grid-column: 2/3;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+main{
+    .contenedor-index{
+        display: block;
+    }
+}    
+}
+
+/*Footer*/
+footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $color-portada;
+    .copyright{
+        color: $color-letra;
+    }
+}

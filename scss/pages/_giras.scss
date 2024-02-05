@@ -1,0 +1,46 @@
+@import "../utilidades/variables.scss";
+@import "../utilidades/reset.scss";
+/*Giras*/
+
+#main-giras{
+    h2{
+        text-align: center;
+        color: $color-titulos;
+    }
+    .contenedor-concierto{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 5em;
+        .concierto{
+            text-align: center;
+            margin: 0 20em 0 20em; 
+            button{
+                margin-left: 50px;
+                border: 0;
+                background-color: $color-hover;
+                border-radius: 10%;
+                span{
+                    color: $color-letra;
+                }
+            }
+        }
+        .img-concierto{
+            position: fixed;
+            right: 1px;
+            bottom: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #main-giras{
+        .contenedor-concierto{
+            .img-concierto{
+                display: none;
+            }
+        }
+
+    }
+}
+   

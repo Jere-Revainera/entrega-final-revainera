@@ -1,0 +1,53 @@
+@import "../utilidades/variables.scss";
+@import "../utilidades/reset.scss";
+/*Discografia*/
+
+#main-discografia{
+    h2{
+        color: $color-titulos;
+        text-align: center;
+    }
+    .contenedor-albumes{
+        display: grid;
+        grid-template-columns: repeat(3 1fr);
+        grid-template-rows: repeat(2 1fr);
+        box-align: center;
+        .album1{
+            grid-row: 1/2;
+            grid-column: 1/2;
+            iframe{
+                text-align: center;
+            }
+        }
+        .album2{
+            grid-row: 1/2;
+            grid-column: 2/3;
+        }
+        .album3{
+            grid-row: 1/2;
+            grid-column: 3/4;
+        }
+        .album4{
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+        .album5{
+            grid-row: 2/3;
+            grid-column: 2/3;
+        }
+        .album6{
+            grid-row: 2/3;
+            grid-column: 3/4;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    #main-discografia{
+        .contenedor-albumes{
+            display: block;
+            margin: 50px;
+        }
+    }
+}
