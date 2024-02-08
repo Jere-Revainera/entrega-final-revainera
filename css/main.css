@@ -74,7 +74,7 @@ footer .copyright {
 }
 
 /*Discografia*/
-#main-discografia h2 {
+#main-discografia h1 {
   color: #d13232;
   text-align: center;
 }
@@ -125,7 +125,7 @@ footer .copyright {
 }
 
 /*Giras*/
-#main-giras h2 {
+#main-giras h1 {
   text-align: center;
   color: #d13232;
 }
@@ -213,7 +213,7 @@ footer .copyright {
 }
 
 /*Contacto*/
-#main-contacto h2 {
+#main-contacto h1 {
   color: #d13232;
   text-align: center;
 }
