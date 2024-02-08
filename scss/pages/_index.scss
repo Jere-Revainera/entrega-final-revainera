@@ -74,7 +74,9 @@ main{
 }
 
 /*Footer*/
-footer{
+#footer-1{
+    position: absolute;
+    bottom: 0px;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;

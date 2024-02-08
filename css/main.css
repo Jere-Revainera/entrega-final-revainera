@@ -54,7 +54,9 @@ main .contenedor-index .img {
   }
 }
 /*Footer*/
-footer {
+#footer-1 {
+  position: absolute;
+  bottom: 0px;
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
@@ -63,7 +65,7 @@ footer {
   align-items: center;
   background-color: #981515;
 }
-footer .copyright {
+#footer-1 .copyright {
   color: whitesmoke;
 }
 
@@ -206,6 +208,20 @@ footer .copyright {
     gap: 10px;
   }
 }
+/* Footer */
+footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #981515;
+}
+footer .copyright {
+  color: whitesmoke;
+}
+
 * {
   margin: 0;
   padding: 0;
