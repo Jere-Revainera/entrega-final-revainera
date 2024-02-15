@@ -56,3 +56,17 @@ textarea {
 [type="submit"]:hover { background:$color-portada; }
 }
 
+#footer-contacto{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $color-portada;
+  .copyright{
+      color: $color-letra;
+  }
+}
