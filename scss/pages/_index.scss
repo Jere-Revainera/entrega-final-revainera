@@ -88,21 +88,3 @@ main{
         color: $color-letra;
     }
 }
-
-@media only screen and (max-width: 500px){
-    #footer-index{
-        width: 100%;
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        background-color: $color-portada;
-        .copyright{
-            color: $color-letra;
-        }
-    }
-}
-
-
-
