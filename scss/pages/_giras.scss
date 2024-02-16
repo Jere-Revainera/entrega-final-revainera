@@ -34,45 +34,22 @@
 }
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 760px){
     #main-giras{
         .contenedor-concierto{
+            .concierto{
+                #text{
+                    text-align: center;
+                }
+                button{
+                  justify-content: center;
+                }
+            }
             .img-concierto{
                 display: none;
             }
         }
 
-    }
-}
-
-/*Footer*/
-#footer-giras{
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: $color-portada;
-    .copyright{
-        color: $color-letra;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    #footer-giras{
-        width: 100%;
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        background-color: $color-portada;
-        .copyright{
-            color: $color-letra;
-        }
     }
 }
    
