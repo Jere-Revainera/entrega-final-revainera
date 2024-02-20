@@ -1,4 +1,8 @@
 @import "../utilidades/variables.scss";
+@mixin sizes ($width, $heigth) {
+    width: $width;
+    height: $heigth;
+};
 /*Giras*/
 
 #main-giras{
@@ -28,6 +32,7 @@
             position: fixed;
             right: 1px;
             bottom: 10px;
+            @include sizes (500px, 500px)
         }
     }
 }
