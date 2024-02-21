@@ -16,15 +16,19 @@
         flex-direction: column;
         gap: 5em;
         .concierto{
+            display: flex;
+            flex-direction: column;
             text-align: center;
-            margin: 0 20em 0 20em; 
+            margin: auto; 
             button{
-                margin-left: 50px;
-                border: 0;
+                margin:auto;
+                border: 1px;
                 background-color: $color-hover;
                 border-radius: 10%;
+                box-shadow: 3px 3px 3px grey;
                 span{
                     color: $color-letra;
+                    margin: 5px; 
                 }
             }
         }
@@ -38,7 +42,7 @@
 }
 
 
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 1250px){
     #main-giras{
         .contenedor-concierto{
             .concierto{
@@ -58,6 +62,8 @@
 }
 
 #footer-giras{
+    position: absolute;
+    bottom: 0px;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
@@ -69,10 +75,8 @@
         color: $color-letra;
     }
 }
-@media only screen and (max-width: 960px){
+@media only screen and (max-width: 1700px){
     #footer-giras{
-        position: absolute;
-        bottom: 0px;
         width: 100%;
         display: flex;
         flex-wrap: nowrap;
