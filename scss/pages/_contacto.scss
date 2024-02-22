@@ -5,9 +5,11 @@
     h1{
         color: $color-titulos;
         text-align: center;
+        font-size: $letra-h1;
     }
     p{
         text-align: center;
+        font-size: $letra-textos;
     }
     body { background:rgb(30,30,40); }
 form { max-width:420px; margin:50px auto; }
